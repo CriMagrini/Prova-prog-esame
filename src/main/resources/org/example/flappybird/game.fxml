@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane fx:id="gamePane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.flappybird.GameController">
+    <ImageView fx:id="bird" fitHeight="40.0" fitWidth="40.0" layoutX="100.0" layoutY="200.0">
+      <image>
+         <Image url="@../../../images/png-transparent-flappy-bird-sprite-flying-bird-game-animals-bird.png" />
+      </image></ImageView>
+</Pane>
